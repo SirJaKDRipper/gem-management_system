@@ -4,8 +4,6 @@ import React, { useState } from "react";
 import { Label } from "@/components/ui/label";
 import { Input } from "@/components/ui/input";
 import { CardSpotlight } from "@/components/ui/card-spotlight";
-import { Inter } from "next/font/google";
-import { Bebas_Neue, Comfortaa, Raleway } from "next/font/google";
 
 export default function Home() {
   const [total, setTotal] = useState<number>(0);
@@ -17,10 +15,6 @@ export default function Home() {
   const [license, setLicense] = useState<number>(0);
   const [karuwa, setKaruwa] = useState<number>(0);
   const [hawula, setHawula] = useState<number>(0);
-  // const inter = Inter({ subsets: ["latin"], weight: ["100", "400", "900"] });
-  // const bebasNeue = Bebas_Neue({ subsets: ["latin"], weight: ["400"] });
-  // const comfortaa = Comfortaa({ subsets: ["latin"], weight: ["400", "700"] });
-  // const raleway = Raleway({ subsets: ["latin"], weight: ["100"] });
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
@@ -69,7 +63,7 @@ export default function Home() {
             Follow these steps to calculate your profit
             <ol className="list-inside list-decimal text-sm sm:text-left ">
               <li className="mt-5">Enter the total Amount.</li>
-              <li className="mt-2">Enter the 'Baraya' Amount.</li>
+              <li className="mt-2">Enter the &apos;Baraya&apos; Amount.</li>
               <li className="mt-2">
                 Enter the planned amount for future investment
               </li>
@@ -94,7 +88,7 @@ export default function Home() {
             />
           </div>
           <div className="mb-4">
-            <Label htmlFor="baraya">Enter the 'Baraya' Amount</Label>
+            <Label htmlFor="baraya">Enter the &apos;Baraya&apos; Amount</Label>
             <Input
               id="baraya"
               placeholder="1000"

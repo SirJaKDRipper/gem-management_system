@@ -12,7 +12,7 @@
     "static/chunks/node_modules_three_build_three_core_df0bde.js",
     "static/chunks/node_modules_three_build_three_module_230a9f.js",
     "static/chunks/node_modules_three_build_three_module_90b415.js",
-    "static/chunks/node_modules_@react-three_fiber_dist_9abe09._.js",
+    "static/chunks/node_modules_@react-three_fiber_dist_1fb50c._.js",
     "static/chunks/node_modules_c49d7c._.js",
     "static/chunks/src_3fdcee._.js"
   ],
